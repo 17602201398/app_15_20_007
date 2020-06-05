@@ -1,0 +1,28 @@
+#name: "你好" # 冒号必须是英文格式，每个冒号后必须跟空格
+
+#Name: "心好累"
+
+#data : {"name":"你好", "pwd":"12345"}
+#
+#data1:
+#  name: "lili"
+#  pwd: "1234"
+
+#bool1: true
+#bool2: false
+
+#data1: ~
+#data2: null
+#data3: Null
+#data4: None
+#data5: none
+#data1: 2020-06-02 01:02:024
+
+
+info: &data
+  name: "lili"
+  phone: "13310001222"
+
+addr:
+  <<: *data
+  datail: "高教园大楼"
